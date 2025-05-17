@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Successful</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <style>
+    .success-container {
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .success-container i {
+      font-size: 60px;
+      color: #088178;
+      margin-bottom: 20px;
+    }
+    .success-container h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .success-container p {
+      font-size: 18px;
+      color: #465b52;
+      margin-bottom: 30px;
+    }
+    .success-container .btn-group a {
+      display: inline-block;
+      background-color: #088178;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      margin: 10px;
+    }
+    .success-container .btn-group a:hover {
+      background-color: #066c66;
+    }
+
+
+    
+  </style>
+</head>
+<body>
+
+  <section id="header">
+    <a href="index.html"><img src="image/logo.png" class="logo"></a>
+    <ul id="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </section>
+
+  <div class="success-container">
+    <i class="fas fa-check-circle"></i>
+    <h1>Payment Successful!</h1>
+    <p>Thank you for your purchase. Your order has been placed successfully.</p>
+    <div class="btn-group">
+      <a href="shop.html">Continue Shopping</a>
+      <a href="index.html">Go to Home</a>
+    </div>
+  </div>
+  
+
+  <footer class="section-p1">
+    <div class="col">
+      <img src="image/logo.png" width="100px" height="100px">
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> 234 Govindpuri Road, Gwalior</p>
+      <p><strong>Phone:</strong> +01 2222 0611 / (+91) 01 2546 0619</p>
+      <p><strong>Hours:</strong> 10:00-18:00, Mon-Sat</p>
+    </div>
+  </footer>
+  <script>
+    if (response.payment_id) {
+        window.location.href = "payment-success.html";
+      }
+      
+  </script>
+
+</body>
+</html>
