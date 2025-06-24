@@ -35,15 +35,10 @@ shopping-/
 ├── assets/ # Images, icons, fonts
 └── README.md # This file
 
-yaml
-Copy
-Edit
+## outcome image of landing page
+![image](https://github.com/user-attachments/assets/c04f9bd7-c39b-4fb1-8236-36d521a58a99)
+![image](https://github.com/user-attachments/assets/21822144-fd39-41bf-a00e-001172cd2d50)
+![image](https://github.com/user-attachments/assets/db05ba80-a57a-4b65-8a61-671db2203903)
+![image](https://github.com/user-attachments/assets/b4310222-be2f-4bca-8843-3464f12c30df)
+![image](https://github.com/user-attachments/assets/37d26ac9-83ac-4e8a-a931-b6b4cefa96d0)
 
----
-
-## 🧪 Setup & Use
-
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/AnujS394/shopping-.git
-   cd shopping-
